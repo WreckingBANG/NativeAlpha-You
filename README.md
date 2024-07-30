@@ -17,19 +17,11 @@
   * Opt-in adblock using an AdBlock Plus custom webview.
   * Less memory footprint and no privacy-invading app permissions in comparison to native apps
   * Dark mode for Android 10+
-
-## Download Options
-[![IzzyOnDroid Download Badge](graphics/IzzyOnDroid.png)](https://apt.izzysoft.de/fdroid/index/apk/com.cylonid.nativealpha)
-[![APK Download Badge](graphics/apk_badge.png)](https://github.com/cylonid/NativeAlphaForAndroid/releases/download/v1.3.1/NativeAlpha-standard-universal-release-v1.3.1.apk)
-[![Google Play Download Badge](graphics/google_play.png)](https://play.google.com/store/apps/details?id=com.cylonid.nativealpha)
-### Paid Download
-[![Google Play Download Badge](graphics/google_play.png)](https://play.google.com/store/apps/details?id=com.cylonid.nativealpha.pro)
-
-## Paid Features
   * Sandbox containers: Web Apps are loaded in fully separated sandboxes, cookies or other data are not shared with other Web Apps
   * Kiosk Mode: Fullscreen with menubars hidden
   * Biometric Access Protection: For every Web App, you can enable access protection (Fingerprint + fallback to lockscreen PIN)
   * Experimental "Force Dark Mode" also available for websites (configurable with respect to day-time)
+
   
 ## Latest Changes (v1.3.0)
 
@@ -46,12 +38,6 @@
 * Fixed global Web App settings being disabled in certain situations
 * Other minor fixes
 * Spanish translation added (thanks to https://github.com/cyanwolfg)
-
-
-### Native Alpha Plus
-
-* Biometric Access Protection: For every Web App, you can enable access protection (Fingerprint + fallback to lockscreen PIN)
-* Further enhancements for Dark Mode
 
 
 ## FAQ
