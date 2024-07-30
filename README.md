@@ -1,5 +1,5 @@
 
-# <img src="graphics/logo.png" width="50px" alt=""></img> Native Alpha
+# <img src="graphics/logo.png" width="50px" alt=""></img> NativeYou
 ![OS](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&style=plastic)
 ![OS](https://img.shields.io/badge/MinVersion-8.0-red)
 ![SDK](https://img.shields.io/badge/SDK-32-yellowgreen)
