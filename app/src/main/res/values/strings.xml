@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Native Alpha</string>
+    <string name="app_name" translatable="false">NativeYou</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="spinner_prompt">UI Mode</string>

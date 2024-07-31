@@ -5,7 +5,7 @@
     <data>
         <variable
             name="settings"
-            type="com.cylonid.nativealpha.model.GlobalSettings" />
+            type="com.wreckingbang.nativeyou.model.GlobalSettings" />
     </data>
 
 

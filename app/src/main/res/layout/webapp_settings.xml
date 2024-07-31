@@ -6,11 +6,11 @@
     <data>
         <variable
             name="webapp"
-            type="com.cylonid.nativealpha.model.WebApp" />
+            type="com.wreckingbang.nativeyou.model.WebApp" />
 
         <variable
             name="activity"
-            type="com.cylonid.nativealpha.WebAppSettingsActivity"/>
+            type="com.wreckingbang.nativeyou.WebAppSettingsActivity"/>
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
