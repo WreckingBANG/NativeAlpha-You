@@ -19,7 +19,7 @@ android {
         }
     }
 
-    compileSdkVersion 32
+    compileSdkVersion 34
     buildToolsVersion "32.1.0-rc1"
     splits {
         abi {
@@ -46,7 +46,7 @@ android {
     defaultConfig {
         applicationId "com.cylonid.nativealpha"
         minSdkVersion 26
-        targetSdkVersion 32
+        targetSdkVersion 34
         versionCode 1311
         versionName "1.3.1"
 
