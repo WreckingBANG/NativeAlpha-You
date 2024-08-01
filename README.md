@@ -2,10 +2,7 @@
 # <img src="graphics/logo.png" width="50px" alt=""></img> NativeYou
 ![OS](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&style=plastic)
 ![OS](https://img.shields.io/badge/MinVersion-8.0-red)
-![SDK](https://img.shields.io/badge/SDK-32-yellowgreen)
-[![GitHub release](https://img.shields.io/github/v/release/cylonid/NativeAlphaForAndroid?include_prereleases&color=blueviolet)](https://github.com/cylonid/NativeAlphaForAndroid/releases)
-[![Github all releases](https://img.shields.io/github/downloads/cylonid/NativeAlphaForAndroid/total?color=blue&label=GitHub%E2%87%A9&style=plastic)](https://somsubhra.github.io/github-release-stats/?username=cylonid&repository=NativeAlphaForAndroid&page=1&per_page=20)
-[![GitHub license](https://img.shields.io/github/license/cylonid/NativeAlphaForAndroid?color=orange)](https://github.com/cylonid/NativeAlphaForAndroid/blob/master/LICENSE)
+![SDK](https://img.shields.io/badge/SDK-34-yellowgreen)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
 
@@ -20,25 +17,7 @@
   * Sandbox containers: Web Apps are loaded in fully separated sandboxes, cookies or other data are not shared with other Web Apps
   * Kiosk Mode: Fullscreen with menubars hidden
   * Biometric Access Protection: For every Web App, you can enable access protection (Fingerprint + fallback to lockscreen PIN)
-  * Experimental "Force Dark Mode" also available for websites (configurable with respect to day-time)
-
-  
-## Latest Changes (v1.3.0)
-
-* Resolved unusual going back behaviour on certain websites
-* Added support for Google OAuth-enabled sites
-* Context Menu: Long-press context menu with several options (Share, going back/forward, reload...)
-* Added pinch-to-zoom setting
-* Added option to freely set start URL of Web Apps to support non-standard URLs (expert settings)
-* Build for x86 and x86_64 platform included
-* Several bugfixes and general improvements
-
-### Minor changes (v1.3.1)
-* Fixed a crash upon adding new Web Apps in certain situations
-* Fixed global Web App settings being disabled in certain situations
-* Other minor fixes
-* Spanish translation added (thanks to https://github.com/cyanwolfg)
-
+  * Experimental "Force Dark Mode" also available for websites (configurable with respect to day-time
 
 ## FAQ
 *Q: Why would I need this app if any mobile browser can do the same?*
@@ -47,9 +26,9 @@ A: Mobile browsers usually only are able to create shortcuts which give a native
 
 *Q: Can I keep multiple log-in sessions of the same website?*
 
-A: Yes, this is possible using the sandbox feature of Native Alpha Plus.
+A: Yes, this is possible using the sandbox feature of NativeYou.
 
-*Q: Why isn't the sandbox feature in Native Alpha Plus enabled by default?*
+*Q: Why isn't the sandbox feature in NativeYou enabled by default?*
 
 A: The sandboxing approach is recommended for specific usage rather than general usage because it can limit the performance of the application and increase the disk usage. Therefore, use it for privacy-invasive websites or websites where you want to be logged in twice, but not for any website just because you can.
 
@@ -63,13 +42,13 @@ A: This problem can occur due to multiple reasons. In most cases, the website do
 
 *Q: In constrast to your promise, this app has a large memory footprint!*
 
-A: This is because Native Alpha makes use of caching in the same way your browser app does, i.e., it saves web content locally on your device. Then it can be loaded faster if you visit the same page again. You can either delete cache regularly yourself or set the "Clear cache after usage" setting in the global settings if memory footprint is a concern for you. However, then websites will take a longer time to load because everything has to be loaded from net.
+A: This is because NativeYou makes use of caching in the same way your browser app does, i.e., it saves web content locally on your device. Then it can be loaded faster if you visit the same page again. You can either delete cache regularly yourself or set the "Clear cache after usage" setting in the global settings if memory footprint is a concern for you. However, then websites will take a longer time to load because everything has to be loaded from net.
 
-*Q: What is the minimum Android version for running Native Alpha?*
+*Q: What is the minimum Android version for running NativeYou?*
 
 A: Oreo (8.0). This is because older versions use a discontinued API for creating screenshots which currently is not implemented.
 
-*Q: I don't want to use Google Play services, is there any other way to obtain Native Alpha Plus?*
+*Q: I don't want to use Google Play services, is there any other way to obtain NativeYou?*
 
 A: You can build the app yourself, everything is open-source including the paid features.
 
@@ -98,7 +77,7 @@ A list of used open-source libraries can also be found inside the app ("About" s
 
 
 ## License
-Native Alpha is Free Software: You can use, study share and improve it at your
+NativeYou is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
 [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
 published by the Free Software Foundation, either version 3 of the License, or
