@@ -67,15 +67,6 @@ For testing purposes:
 
 A list of used open-source libraries can also be found inside the app ("About" section).
 
-## Screenshots
-<div style="text-align: center; margin: auto;">
-<img src="graphics/screenshots/mainScreen.png" alt="Main Screen" width="350"/>
-<img src="graphics/screenshots/addWebApp.png" alt="Add Web App" width="350"/>
-<img src="graphics/screenshots/webAppSettings.png" alt="Available Web App Settings" width="350"/>
-<img src="graphics/screenshots/globalSettings.png" alt="Global Settings" width="350"/>
-</div>
-
-
 ## License
 NativeYou is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
