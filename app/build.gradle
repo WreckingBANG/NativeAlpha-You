@@ -8,7 +8,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     applicationVariants.all { variant ->
         variant.assembleProvider.get().doLast {
-            delete fileTree('src/main/java/com/cylonid/nativealpha') {
+            delete fileTree('src/main/java/com/wreckingbang/nativeyou') {
                 include '**/__WebViewActivity_*.java'
             }
             delete fileTree('src/main') {
@@ -34,17 +34,17 @@ android {
         extended {
             dimension "default"
             applicationIdSuffix ".pro"
-            resValue "string", "app_name_unicode", "Native α+"
+            resValue "string", "app_name_unicode", "NativeYou"
         }
         standard {
             dimension "default"
             isDefault true
-            resValue "string", "app_name_unicode", "Native α"
+            resValue "string", "app_name_unicode", "NativeYou"
         }
     }
 
     defaultConfig {
-        applicationId "com.cylonid.nativealpha"
+        applicationId "com.wreckingbang.nativeyou"
         minSdkVersion 26
         targetSdkVersion 34
         versionCode 1311
@@ -75,7 +75,7 @@ android {
                         // on below line we are setting a name to our apk
                     output ->
                         // on below line we are specifying our app name.
-                        project.ext { appName = 'NativeAlpha' }
+                        project.ext { appName = 'NativeYou' }
                         // on below line we are adding the formatted date to our apk file name.
                         def formattedDate = new Date().format('yyyy-MM-dd-HH-mm-ss')
                         // on below line we are creating a new name for our apk.

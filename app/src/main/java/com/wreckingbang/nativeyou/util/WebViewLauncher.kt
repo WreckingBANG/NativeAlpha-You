@@ -41,7 +41,7 @@ object WebViewLauncher {
 
     @JvmStatic
     fun createWebViewIntent(webapp: WebApp, c: Context?): Intent? {
-        val packageName = "com.cylonid.nativealpha"
+        val packageName = "com.wreckingbang.nativeyou"
         var webview_class: Class<*>? = null
         try {
             webview_class = if (webapp.containerId != Const.NO_CONTAINER) {

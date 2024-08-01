@@ -37,7 +37,7 @@ public class DataManager {
     private static final int LEGACY_DATA_FORMAT = 1000;
 
     private static final String SHARED_PREF_KEY = "WEBSITEDATA";
-    private static final String GENERAL_INFO = "com.cylonid.nativealpha.GENERAL_INFO";
+    private static final String GENERAL_INFO = "com.wreckingbang.nativeyou.GENERAL_INFO";
     public static final String EULA_ACCEPTED = "eulaAccepted";
     public static final String LAST_SHOWN_UPDATE = "lastShownUpdate";
     public static final String DATA_FORMAT = "dataFormat";
