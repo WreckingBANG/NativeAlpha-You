@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.res.ResourcesCompat;
 
+import com.google.android.material.materialswitch.MaterialSwitch;
 import com.wreckingbang.nativeyou.model.DataManager;
 import com.wreckingbang.nativeyou.model.WebApp;
 import com.wreckingbang.nativeyou.util.Const;
@@ -75,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
     }
     private void personalizeToolbar()  {
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setLogo(R.mipmap.native_alpha_white);
         @StringRes int appName = !BuildConfig.FLAVOR.equals("extended") ? R.string.app_name : R.string.app_name_plus;
         toolbar.setTitle(appName);
         setSupportActionBar(toolbar);
@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
     private void buildAddWebsiteDialog(String title) {
         final View inflated_view = getLayoutInflater().inflate(R.layout.add_website_dialogue, null);
         final EditText url = inflated_view.findViewById(R.id.websiteUrl);
-        final Switch create_shortcut = inflated_view.findViewById(R.id.switchCreateShortcut);
+        final MaterialSwitch create_shortcut = inflated_view.findViewById(R.id.switchCreateShortcut);
 
         final AlertDialog dialog = new AlertDialog.Builder(MainActivity.this)
                 .setView(inflated_view)

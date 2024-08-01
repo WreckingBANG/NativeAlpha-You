@@ -85,8 +85,8 @@
     <string name="dialog_permission_location_txt">Do you want to grant this Web App access to your location? You can revoke this decision any time in the Web App Settings menu.</string>
     <string name="dialog_permission_drm_title">DRM Content</string>
     <string name="dialog_permission_drm_txt">Do you want allow this Web App to load DRM-protected content?</string>
-    <string name="permission_location_rationale">If you want Web Apps to be able to retrieve your location, you can Native Alpha grant the permission to access the location. You can decide to grant the permission for every Web App individually.</string>
-    <string name="permission_storage_rationale">If you want Native Alpha Web Apps to be able to download files, you have to accept the storage permission request.</string>
+    <string name="permission_location_rationale">If you want Web Apps to be able to retrieve your location, you can NativeYou grant the permission to access the location. You can decide to grant the permission for every Web App individually.</string>
+    <string name="permission_storage_rationale">If you want NativeYou Web Apps to be able to download files, you have to accept the storage permission request.</string>
     <string name="file_download">File is being downloaded…</string>
     <string name="custom_icon">Select custom icon</string>
     <string name="show_progress_bar_during_page_load">Show progress bar during page load</string>
@@ -135,7 +135,7 @@
     <string name="allow_microphone_access">Allow microphone access</string>
     <string name="dialog_permission_microphone_title">Microphone Access</string>
     <string name="dialog_permission_microphone_txt">Do you want to grant this Web App access to your microphone? You can revoke this decision any time in the Web App Settings menu.</string>
-    <string name="app_name_plus" translatable="false">Native Alpha +</string>
+    <string name="app_name_plus" translatable="false">NativeYou</string>
     <string name="shortcut_already_exists">A shortcut with this name already exists. Please choose another name or delete the existing shortcut.</string>
     <string name="back">Back</string>
     <string name="forward">Forward</string>

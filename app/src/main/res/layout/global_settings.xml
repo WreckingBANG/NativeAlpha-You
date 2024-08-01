@@ -104,35 +104,35 @@
 
                         </LinearLayout>
 
-                        <Switch
+                        <com.google.android.material.materialswitch.MaterialSwitch
                             android:id="@+id/switchGlobalCache"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:checked="@={settings.clearCache}"
                             android:text="@string/clear_cache_after_usage" />
 
-                        <Switch
+                        <com.google.android.material.materialswitch.MaterialSwitch
                             android:id="@+id/switchGlobalMultiTouchReload"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:checked="@={settings.multitouchReload}"
                             android:text="@string/global_settings_multitouch_reload" />
 
-                        <Switch
+                        <com.google.android.material.materialswitch.MaterialSwitch
                             android:id="@+id/switchGlobalMultiTouch"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:checked="@={settings.twoFingerMultitouch}"
                             android:text="@string/use_two_finger_swipes_for_browser_forward_and_backward_navigation" />
 
-                        <Switch
+                        <com.google.android.material.materialswitch.MaterialSwitch
                             android:id="@+id/switchGlobalMultiTouch3Fingers"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:checked="@={settings.threeFingerMultitouch}"
                             android:text="@string/use_three_finger_swipes_to_switch_between_web_apps_experimental" />
 
-                        <Switch
+                        <com.google.android.material.materialswitch.MaterialSwitch
                             android:id="@+id/switchShowProgressbar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

@@ -27,7 +27,7 @@
         <item name="android:timePickerDialogTheme">@style/CustomDatePickerDialog</item>
 
     </style>
-    <style name="CustomDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+    <style name="CustomDatePickerDialog" parent="Theme.Material3.Light.Dialog">
         <item name="android:textColorPrimary">#818181</item>
         <item name="android:textColorSecondary">@color/colorPrimary</item>
 

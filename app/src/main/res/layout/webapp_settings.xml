@@ -96,7 +96,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/sandbox"
                         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-                    <Switch
+                    <com.google.android.material.materialswitch.MaterialSwitch
                         android:id="@+id/switchSandbox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                         android:text="@string/enable_sandbox" />
 
                 </LinearLayout>
-                    <Switch
+                    <com.google.android.material.materialswitch.MaterialSwitch
                         android:id="@+id/switchOverrideGlobal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchJavascript"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -147,42 +147,42 @@
                                 android:onCheckedChanged="@{(switch, checked) -> webapp.onSwitchJsChanged(switch, checked)}"
                                 android:text="@string/allow_javascript" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchBlockThirdParty"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.blockThirdPartyRequests}"
                                 android:text="@string/block_all_third_party_requests" />
 
-                            <Switch
+                            <com.google.android.material.switchmaterial.SwitchMaterial
                                 android:id="@+id/switchHTTP"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.allowHttp}"
                                 android:text="@string/allow_http" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchLocationAccess"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.allowLocationAccess}"
                                 android:text="@string/allow_location_access" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchDRMContent"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.drmAllowed}"
                                 android:text="@string/allow_drm_content" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchCameraAccess"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.cameraPermission}"
                                 android:text="@string/allow_camera_access" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchMicrophoneAccess"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -205,7 +205,7 @@
                                 android:text="@string/webapp_section_access_restriction"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchBiometricAccess"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -233,7 +233,7 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchCookies"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
                                 android:onCheckedChanged="@{(switch, checked) -> webapp.onSwitchCookiesChanged(switch, checked)}"
                                 android:text="@string/accept_cookies" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switch3PCookies"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -249,7 +249,7 @@
                                 android:enabled="@{webapp.allowCookies}"
                                 android:text="@string/accept_third_party_cookies" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchAdblock"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -275,7 +275,7 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchDarkMode"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -283,7 +283,7 @@
                                 android:onCheckedChanged="@{(switch, checked) -> webapp.onSwitchForceDarkChanged(switch, checked)}"
                                 android:text="@string/force_dark_mode" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchTimeSpanDarkMode"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -374,7 +374,7 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchSaveDataRequest"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -382,7 +382,7 @@
                                 android:enabled="true"
                                 android:text="@string/request_data_saving_page" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchBlockImages"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -407,7 +407,7 @@
                                 android:text="@string/webapp_autoreload"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchAutoreload"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -457,14 +457,14 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchFullScreen"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.showFullscreen}"
                                 android:text="@string/show_fullscreen" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchKeepAwake"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -490,7 +490,7 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchDesktopSite"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -498,26 +498,26 @@
                                 android:enabled="@{webapp.allowJs}"
                                 android:text="@string/request_website_in_desktop_version" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchOpenUrlExternal"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.openUrlExternal}"
                                 android:text="@string/open_external_links_in_browser_app" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchEnableZoom"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="@={webapp.enableZooming}"
                                 android:text="@string/activate_two_finger_zoom" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchMediaplaybackBackground"
                                 android:visibility="gone"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                                                android:checked="@={webapp.allowMediaPlaybackInBackground}"
+                                android:checked="@={webapp.allowMediaPlaybackInBackground}"
                                 android:text="@string/allow_media_playback_in_background" />
 
 
@@ -530,7 +530,7 @@
                             android:textAppearance="@style/TextAppearance.AppCompat.Small"
                             android:textStyle="bold" />
 
-                        <Switch
+                        <com.google.android.material.materialswitch.MaterialSwitch
                             android:id="@+id/switchExpertSettings"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -573,7 +573,7 @@
                                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textStyle="bold" />
 
-                            <Switch
+                            <com.google.android.material.materialswitch.MaterialSwitch
                                 android:id="@+id/switchUserAgent"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -637,7 +637,7 @@
                                         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
                                 </LinearLayout>
 
-                                <Switch
+                                <com.google.android.material.materialswitch.MaterialSwitch
                                     android:id="@+id/switchIgnoreSSLErrors"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"

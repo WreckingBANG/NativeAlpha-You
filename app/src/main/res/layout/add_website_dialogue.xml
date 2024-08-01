@@ -15,7 +15,7 @@
         android:layout_marginBottom="4dp"
         android:hint="@string/url" />
 
-    <Switch
+    <com.google.android.material.materialswitch.MaterialSwitch
         android:id="@+id/switchCreateShortcut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
