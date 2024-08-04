@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void buildImportSuccessDialog() {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        final AlertDialog.Builder builder = new MaterialAlertDialogBuilder(this);
 
         String message =  getString(R.string.import_success_dialog_txt2) + "\n\n" + getString(R.string.import_success_dialog_txt3);
 
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 WebApp webapp = webapps.get(i);
                 boolean last_webapp = i == webapps.size() - 1;
                 Spanned msg = Html.fromHtml(getString(R.string.restore_shortcut, webapp.getTitle()), Html.FROM_HTML_MODE_COMPACT);
-                final AlertDialog addition_dialog = new AlertDialog.Builder(this)
+                final AlertDialog addition_dialog = new MaterialAlertDialogBuilder(this)
                         .setMessage(msg)
                         .setPositiveButton(android.R.string.yes, (dialog1, which) -> {
                             ShortcutDialogFragment frag = ShortcutDialogFragment.newInstance(webapp);
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void buildDeleteItemDialog(final int ID) {
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(MainActivity.this);
         builder.setMessage(getString(R.string.delete_question));
         builder.setPositiveButton(getString(android.R.string.yes), (dialog, id) -> {
             WebApp webapp = DataManager.getInstance().getWebApp(ID);

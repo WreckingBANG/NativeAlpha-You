@@ -25,6 +25,7 @@ import androidx.core.content.pm.ShortcutManagerCompat;
 import androidx.core.graphics.drawable.IconCompat;
 import androidx.fragment.app.DialogFragment;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.wreckingbang.nativeyou.model.DataManager;
 import com.wreckingbang.nativeyou.model.WebApp;
 import com.wreckingbang.nativeyou.util.App;
@@ -110,7 +111,7 @@ public class ShortcutDialogFragment extends DialogFragment  {
 
         final View view = getLayoutInflater().inflate(R.layout.shortcut_dialog, null);
 
-        final AlertDialog dialog = new AlertDialog.Builder(requireActivity())
+        final AlertDialog dialog = new MaterialAlertDialogBuilder(requireActivity())
                 .setView(view)
                 .setCancelable(false)
                 .setPositiveButton(android.R.string.ok, (dialog1, which) -> {
