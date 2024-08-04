@@ -49,8 +49,7 @@
                 android:layout_weight="99"
                 android:fadeScrollbars="false"
                 android:fillViewport="false"
-                android:scrollbarStyle="outsideOverlay"
-                android:scrollbarThumbVertical="@color/colorPrimary">
+                android:scrollbarStyle="outsideOverlay">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -312,8 +311,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:enabled="@{webapp.useTimespanDarkMode}"
-                                        android:text="@string/begin"
-                                        android:textColor="?android:attr/textColorPrimary" />
+                                        android:text="@string/begin" />
 
                                     <EditText
                                         android:id="@+id/textDarkModeBegin"
@@ -340,8 +338,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:enabled="@{webapp.useTimespanDarkMode}"
-                                        android:text="@string/end"
-                                        android:textColor="?android:attr/textColorPrimary" />
+                                        android:text="@string/end" />
 
                                     <EditText
                                         android:id="@+id/textDarkModeEnd"
@@ -426,8 +423,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:enabled="@{webapp.autoreload}"
-                                    android:text="@string/webapp_interval_for_reload"
-                                    android:textColor="@android:color/primary_text_light" />
+                                    android:text="@string/webapp_interval_for_reload" />
 
                                 <EditText
                                     android:id="@+id/textReloadInterval"
@@ -627,8 +623,7 @@
                                         android:layout_height="wrap_content"
 
                                         android:layout_marginEnd="@dimen/settings_bottom_innersection"
-                                        android:background="@android:drawable/ic_dialog_alert"
-                                        android:backgroundTint="@color/colorPrimary" />
+                                        android:background="@android:drawable/ic_dialog_alert" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
