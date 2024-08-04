@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.res.ResourcesCompat;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.materialswitch.MaterialSwitch;
 import com.wreckingbang.nativeyou.model.DataManager;
 import com.wreckingbang.nativeyou.model.WebApp;
@@ -208,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText url = inflated_view.findViewById(R.id.websiteUrl);
         final MaterialSwitch create_shortcut = inflated_view.findViewById(R.id.switchCreateShortcut);
 
-        final AlertDialog dialog = new AlertDialog.Builder(MainActivity.this)
+        final AlertDialog dialog = new MaterialAlertDialogBuilder(MainActivity.this)
                 .setView(inflated_view)
                 .setTitle(title)
                 .setPositiveButton(android.R.string.ok, null) //Set to null. We override the onclick
